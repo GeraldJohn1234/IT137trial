@@ -2,9 +2,12 @@
   body {
 	font-family: 'Roboto', sans-serif;
 	background: url(img/background.png) no-repeat center center fixed;
-  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.modal-content{
+.opacit{
    opacity: .7;
 }
 .container
@@ -37,7 +40,7 @@
     <section class="row justify-content-center">
         <section class="col-12 col-sm-6 col-md-4">
 
-          <form class="modal-content bg-dark py-3 px-5 mt-5">
+          <form class=" opacit bg-dark container">
 
             <div class="col-12 form-input text-light ">
                   <h3 class="text-center"><b>LOGIN FORM<b></h3>
